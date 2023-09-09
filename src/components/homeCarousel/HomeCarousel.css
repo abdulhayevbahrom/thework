@@ -1,0 +1,93 @@
+.homeCarousel {
+    width: 100vw;
+    height: auto;
+}
+
+.caouselhomeee {
+    width: 100vw;
+    height: 80vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.caouselhomeee1 {
+    width: 100vw;
+    height: 80vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.homecarouselitem1,
+.homecarouselitem{
+    width: 90%;
+    height: 350px;
+    background-color: orange;
+}
+
+
+
+
+.find11 {
+    width: 100vw;
+    height: 50vh;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.find11_item{
+    width: 80%;
+    height: 80%;
+    background-color: transparent;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.find_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.find_box h2{
+    width: 70%;
+}
+
+.carousel_box_btn{
+    width: 180px;
+    height: 60px;
+    border-radius: 7px;
+    color: #0c0c0c;
+    background-color: rgb(255, 190, 61);
+    border: none;
+    font-weight: 800;
+    font-size: 15px;
+    transition: .7s;
+    cursor: pointer;
+
+}
+
+
+.carousel_box_btn:hover{
+    background-color: aqua;
+}
+.icons_carousel1{
+    font-size: 22px;
+    margin-right: 5px;
+
+}

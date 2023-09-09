@@ -4,10 +4,12 @@ import Header from "../../components/header/Header"
 import About from '../../components/about/About'
 import InfoCard from '../../components/infoCard/InfoCard'
 import Section from '../../components/section/Section'
+import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
 
 function Home() {
     return (
         <div className='home'>
+            <HomeCarousel />
             <Header />
             <Banner />
             <About />
