@@ -3,7 +3,6 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './routes/home/Home'
 import Vacancy from './routes/vacancy/Vacancy'
 import Staff from './routes/staff/Staff'
-import Footer from './components/footer/Footer'
 
 function App() {
   return (
@@ -13,7 +12,6 @@ function App() {
         <Route path='/vacancy' element={<Vacancy />} />
         <Route path='/staff' element={<Staff />} />
       </Routes>
-      <Footer/>
     </div>
   )
 }

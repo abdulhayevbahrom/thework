@@ -1,9 +1,10 @@
 import React from 'react'
+import Conditions from '../../components/conditions/Conditions'
 
 function Staff() {
     return (
         <div>
-            staff
+            <Conditions />
         </div>
     )
 }
