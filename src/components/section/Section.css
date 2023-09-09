@@ -41,25 +41,25 @@
 @media (max-width: 1475px) {
     .hospitality{
         width: 100%;
-        height: 40vh;
+        height: 55vh;
     }
 }
 @media (max-width: 1200px) {
     .hospitality{
         width: 100%;
-        height: 30vh;
+        height: 50vh;
     }
 }
 @media (max-width: 1000px) {
     .hospitality{
         width: 100%;
-        height: 20vh;
+        height: 40vh;
     }
 }
 @media (max-width: 752px) {
     .hospitality{
         width: 100%;
-        height: 10vh;
+        height: 30vh;
     }
     .hospitality>h1{
         width: 80%;
