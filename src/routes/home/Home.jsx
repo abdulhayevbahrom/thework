@@ -8,17 +8,17 @@ import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
 import Questions from '../../components/questions/Questions'
 
 function Home() {
-    return (
-        <div className='home'>
-            <Header />
-            <Banner />
-            <About />
-            <InfoCard />
-            <Section />
-            <HomeCarousel />
-            <Questions />
-        </div>
-    )
+  return (
+    <div className='home'>
+      <Header />
+      <Banner />
+      <About />
+      <InfoCard />
+      <Section />
+      <HomeCarousel />
+      <Questions />
+    </div>
+  )
 }
 
-export default Home
+export default Home;
