@@ -50,8 +50,8 @@ function Conditions() {
           </span>
         </div>
         <div className="ConditionsBox ConditionsBox3">
-          <h1>VALUE WE BRING</h1>
           <div className="ConditionsBoxText">
+          <h1>VALUE WE BRING</h1>
             <span>
               <b>Handpicked Candidates: </b>
               Access to carefully evaluated candidates who align with your
