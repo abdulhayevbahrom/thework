@@ -8,18 +8,18 @@ import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
 import Crousel11 from '../../components/crousel11/Carousel11'
 
 function Home() {
-    return (
-        <div className='home'>
-            <Crousel11 />
-            <HomeCarousel />
-            <Header />
-            <Banner />
-            <About />
-            <InfoCard />
-            <Section />
-            {/* <Carousel/> */}
-        </div>
-    )
+  return (
+    <div className='home'>
+      <Crousel11 />
+      <HomeCarousel />
+      <Header />
+      <Banner />
+      <About />
+      <InfoCard />
+      <Section />
+      <Carousel/>
+    </div>
+  )
 }
 
-export default Home
+export default Home;

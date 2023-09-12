@@ -1,0 +1,27 @@
+.sidebar {
+    width: 350px;
+    height: 100%;
+    border: 2px dodgerblue solid;
+    border-radius: 7px;
+    padding: 15px;
+}
+
+.sidebar h1 {
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+.sidebar ul li {
+    margin: 5px 0;
+    padding: 7px 12px;
+    background-color: rgb(9, 20, 102);
+    border-radius: 5px;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.sidebar ul li span {
+    color: #fff;
+}
