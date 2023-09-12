@@ -15,7 +15,7 @@ function InfoCard() {
         <div className="getjob_cards">
           <img src={findvacancy} alt="" />
           <b>1. Finding a vacancy</b>
-          <p>Check available opportunities and apply <a href="/">here</a></p>
+          <p>Check available opportunities and news then you cangit apply <a href="/">here</a></p>
         </div>
         <div className="getjob_cards">
           <img src={interview} alt="" />
