@@ -6,18 +6,20 @@ import InfoCard from '../../components/infoCard/InfoCard'
 import Section from '../../components/section/Section'
 import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
 import Crousel11 from '../../components/crousel11/Carousel11'
+import Footer from '../../components/footer/Footer'
 
 function Home() {
   return (
     <div className='home'>
+      <Header />
+      <About />
       <Crousel11 />
       <HomeCarousel />
-      <Header />
       <Banner />
-      <About />
       <InfoCard />
       <Section />
-      <Carousel/>
+      {/* <Carousel/> */}
+      <Footer />
     </div>
   )
 }

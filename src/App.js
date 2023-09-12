@@ -4,6 +4,7 @@ import Home from './routes/home/Home'
 import Vacancy from './routes/vacancy/Vacancy'
 import Staff from './routes/staff/Staff'
 import AdminLogin from './components/adminLogin/AdminLogin'
+import FormInfo from './components/FormInfo/FormInfo'
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path='/vacancy' element={<Vacancy />} />
         <Route path='/staff' element={<Staff />} />
         <Route path='/login' element={<AdminLogin />} />
+        <Route path='/create' element={<FormInfo />} />
+
       </Routes>
     </div>
   )
