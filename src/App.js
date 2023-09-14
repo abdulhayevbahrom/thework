@@ -7,6 +7,7 @@ import Staff from './routes/staff/Staff'
 function App() {
   return (
     <div className='app'>
+      
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path='/vacancy' element={<Vacancy />} />
