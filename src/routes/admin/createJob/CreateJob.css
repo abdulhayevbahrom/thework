@@ -1,0 +1,17 @@
+.createjob {
+    width: calc(100%-300px);
+    /* background-color: antiquewhite; */
+    padding: 70px 50px;
+}
+
+.createjob .btn-secondary {
+    width: 100%;
+}
+
+.createjob .form-container {
+    width: 50%;
+}
+
+.createjob label {
+    margin-bottom: 8px;
+}

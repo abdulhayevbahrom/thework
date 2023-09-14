@@ -50,7 +50,7 @@ function HomeCarousel() {
                         >
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -58,7 +58,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t8ARz5gy7tg?si=8vlkdnBEGfd0IZHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/t8ARz5gy7tg?si=8vlkdnBEGfd0IZHq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -66,7 +66,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -74,7 +74,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -82,7 +82,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
 
                                 </div>
                                 <div className="youtube_texts">
@@ -91,7 +91,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -99,7 +99,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -107,7 +107,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -115,7 +115,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -123,7 +123,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -131,7 +131,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -139,7 +139,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>
@@ -147,7 +147,7 @@ function HomeCarousel() {
                             </SwiperSlide>
                             <SwiperSlide className='crousel_imgs2'>
                                 <div className="youtube_videos">
-                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/KIdQzqWnh-Y?si=oNHNlnr6tfvGe5CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                                 </div>
                                 <div className="youtube_texts">
                                     <p style={{ fontSize: "19px" }}>Lorem, consectetur  molestias, quis aliquam placeat.</p>

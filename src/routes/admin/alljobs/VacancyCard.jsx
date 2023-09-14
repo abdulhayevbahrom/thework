@@ -17,6 +17,22 @@ function VacancyCard() {
 
     let fakeImg = "https://storage.georgia.travel/images/300x350/borjom-karagauli-nature-georgia.webp"
 
+    // -------------------------------------
+
+    function deleteItem(id) {
+        let state = window.confirm("ushbu malumotni o'chirmoqchimsiz?")
+        if (state) {
+            axios.delete(API + "/" + id)
+                .then(res => {
+                    console.log(res);
+                    if (res.status === 200) {
+                        alert("successfully")
+                        window.location.reload()
+                    }
+                })
+                .catch(err => console.log(err))
+        }
+    }
 
     return (
         <div className='vacancyCard'>
@@ -26,6 +42,7 @@ function VacancyCard() {
                         <img src={item.img ? item.img : fakeImg} alt={item.job} />
                         <p>{item.job}</p>
                         <Link to={item.id}>More Info</Link>
+                        <FaTrash className='trash' onClick={() => { deleteItem(item.id) }} />
                     </div>
                 )
             }
