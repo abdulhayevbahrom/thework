@@ -3,7 +3,7 @@
     border: 2px solid dodgerblue;
     border-radius: 5px;
     display: grid;
-    grid-template-columns: repeat(4, 300px);
+    grid-template-columns: repeat(3, 300px);
     justify-content: center;
     gap: 15px;
     padding: 15px;
@@ -33,20 +33,4 @@
     background-color: orange;
     text-decoration: none;
 
-}
-
-.trash {
-    width: 30px;
-    height: 30px;
-    border-radius: 2px;
-    color: red;
-    cursor: pointer;
-    transform: translate(120px, 100px);
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.vacancyCard_item:hover .trash {
-    transform: translate(120px, -15px);
-    opacity: 1;
 }

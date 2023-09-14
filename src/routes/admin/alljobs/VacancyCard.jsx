@@ -1,13 +1,18 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, memo } from 'react'
 import './VacancyCard.css'
 import axios from 'axios'
 import { Link } from 'react-router-dom';
-import { FaTrash } from 'react-icons/fa'
+import { BiSolidTrashAlt } from 'react-icons/bi'
+import { MdEdit } from 'react-icons/md'
+import Edit from '../../../components/edit/Edit';
 
 function VacancyCard() {
     let API = "https://64da6002e947d30a260b2eee.mockapi.io/foods/jobs";
 
     const [data, setData] = useState([])
+    const [openEdit, setOpenEdit] = useState(false)
+    const [changeble, setChengable] = useState({})
+
 
     useEffect(() => {
         axios.get(API)
@@ -34,15 +39,23 @@ function VacancyCard() {
         }
     }
 
+
+    function openEditItem(item) {
+        setOpenEdit(true)
+        setChengable(item)
+    }
+
     return (
         <div className='vacancyCard'>
+            {openEdit && <Edit changeble={changeble} />}
             {
                 data.map((item, index) =>
                     <div key={index} className='vacancyCard_item'>
                         <img src={item.img ? item.img : fakeImg} alt={item.job} />
                         <p>{item.job}</p>
                         <Link to={item.id}>More Info</Link>
-                        <FaTrash className='trash' onClick={() => { deleteItem(item.id) }} />
+                        <MdEdit onClick={() => openEditItem(item)} className='trash edit' />
+                        <BiSolidTrashAlt className='trash' onClick={() => { deleteItem(item.id) }} />
                     </div>
                 )
             }
@@ -50,4 +63,4 @@ function VacancyCard() {
     )
 }
 
-export default VacancyCard
+export default memo(VacancyCard)

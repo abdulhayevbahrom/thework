@@ -7,6 +7,8 @@ function Header() {
         <header>
             <h1>Logo</h1>
             <Link to={'/vacancy'}>Open vacancies</Link>
+            <Link to={'/admin'}>admin</Link>
+
         </header>
     )
 }

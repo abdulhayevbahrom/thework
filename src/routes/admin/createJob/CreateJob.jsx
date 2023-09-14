@@ -102,13 +102,19 @@ function CreateJob() {
                                     <span className="input-group-text">
                                         <i className="bi bi-geo-alt"></i>
                                     </span>
-                                    <input
+                                    {/* <input
                                         type="text"
                                         className="form-control"
                                         placeholder="Enter Location"
                                         value={location}
                                         onChange={(e) => setLocation(e.target.value)}
-                                    />
+                                    /> */}
+                                    <select value={location}
+                                        onChange={(e) => setLocation(e.target.value)} >
+                                        <option value="saudiarabia">Saudi Arabia</option>
+                                        <option value="uae">UAE</option>
+                                        <option value="bahrain">Bahrain</option>
+                                    </select>
 
                                     <span className="input-group-text">
                                         <span
