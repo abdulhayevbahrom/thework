@@ -52,7 +52,7 @@ z-index: 1;
         content: '';
         position: absolute;
         top: 0;
-        left: calc(100% + 95px); 
+        left:94%; 
         width: 120%;
         height: 240%;
         background:linear-gradient(rgba(0,0,0,0.075),transparent);
@@ -62,7 +62,7 @@ z-index: 1;
         content: '';
         position: absolute;
         bottom: -200%;
-        left: calc(100% + 80px); 
+        left: 95%; 
         width: 100%;
         height: 200%;
         background:#9d9d9d;
@@ -71,9 +71,9 @@ z-index: 1;
     .coverAdmin{
         position: absolute;
         top: 0;
-        left: -100px;
-        width: 100px;
-        height: 100px;
+        left: -200px;
+        width: 200px;
+        height: 200px;
         background: #cfd1e1;
         z-index: 10;
     }
@@ -112,8 +112,9 @@ z-index: 1;
         justify-content: center;
         border-radius: 50%;
     }
-    .logo svg{
+   .logo .keylogo{
         color: #fff;
+        font-size: 40px;
     }
 .contentAdmin .formAdmin h2{
     font-size: 2em;
@@ -144,6 +145,9 @@ z-index: 1;
     bottom: 15px;
     font-size: 1rem;
     color: #444;
+}
+.formAdmin form{
+    width: 100%;
 }
 #eye{
     right: 0;
