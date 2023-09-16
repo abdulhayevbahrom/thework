@@ -1,5 +1,6 @@
 .FormInfo{
-    width: calc(100%-300px);
+    width: 100%;
+    /* width: calc(100%-300px); */
     /* background-color: antiquewhite; */
     padding: 70px 50px;
 }
@@ -14,4 +15,8 @@
 
 .FormInfo label{
     margin-bottom: 8px;
+}
+
+.input-group{
+    width: 100%;
 }
