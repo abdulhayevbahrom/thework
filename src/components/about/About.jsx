@@ -40,8 +40,8 @@ function About() {
                         </div>
                         <div className="banner_bottom">
                             <h1>&#10078;</h1>
-                            <p>We founded theWORK in 2016 to connect ambitious candidates who are looking to explore the world and build an international career with opportunities to work in the best hospitality brands in the Middle East."</p>
-                            <p>Hospitality is not a job; it is a lifestyle. No matter where you are from, whether you are an aspiring talent or an experienced professional, if you have a calling for hospitality, we would be happy to help you find your next challenge.</p>
+                            <p className='pi' >We founded theWORK in 2016 to connect ambitious candidates who are looking to explore the world and build an international career with opportunities to work in the best hospitality brands in the Middle East."</p>
+                            <p className='pi' >Hospitality is not a job; it is a lifestyle. No matter where you are from, whether you are an aspiring talent or an experienced professional, if you have a calling for hospitality, we would be happy to help you find your next challenge.</p>
                             <h5>Oksana Bratishkina, <br />
                                 Co-founder and COO theWORK</h5>
                         </div>

@@ -41,7 +41,7 @@ function AdminLogin() {
                     <div className="shadovAdmin"></div>
                     <div className="contentAdmin">
                         <div className="formAdmin">
-                            <h3 className='logo' style={mystyle}><BiSolidKey /></h3>
+                            <h3 className='logo' style={mystyle}><BiSolidKey className='keylogo' /></h3>
                             <h2>sign in</h2>
 
                             <form onSubmit={sendadmin} >
