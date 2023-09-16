@@ -16,3 +16,7 @@
 .FormInfo label{
     margin-bottom: 8px;
 }
+
+.input-group{
+    width: 100%;
+}
