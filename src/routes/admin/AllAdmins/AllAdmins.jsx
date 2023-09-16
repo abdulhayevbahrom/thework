@@ -19,8 +19,8 @@ function AllAdmins() {
       setLoading(false);
     }, 2000);
   }, []);
- 
-console.log(admin);
+
+  console.log(admin);
   return (
     <div className="AllAdmins">
       {loading ? (
@@ -29,7 +29,7 @@ console.log(admin);
           <p className="loader">Loading...</p>
         </div>
       ) :
-       ( <table>
+        (<table>
           <thead>
             <tr>
               <th>ID</th>

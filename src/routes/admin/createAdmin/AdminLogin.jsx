@@ -6,6 +6,7 @@ import { BsQuestionLg } from 'react-icons/bs'
 import { MdEmail, MdDriveFileRenameOutline } from 'react-icons/md'
 import { AiFillEyeInvisible } from 'react-icons/ai'
 import axios from 'axios'
+import { Form } from 'react-bootstrap'
 
 function AdminLogin() {
     const [username, setusername] = useState("")
@@ -46,42 +47,42 @@ function AdminLogin() {
 
                             <form onSubmit={sendadmin} >
                                 <div className="inputBox">
-                                    <input 
-                                    type="text"
-                                    onChange={(e) => setusername(e.target.value)}
-                                     required />
+                                    <input
+                                        type="text"
+                                        onChange={(e) => setusername(e.target.value)}
+                                        required />
                                     <FaUserAlt className='i' />
                                     <span>username</span>
                                 </div>
                                 <div className="inputBox">
-                                    <input 
-                                    type="email"
-                                    onChange={(e) => setemail(e.target.value)}
-                                     required />
+                                    <input
+                                        type="email"
+                                        onChange={(e) => setemail(e.target.value)}
+                                        required />
                                     <MdEmail className='i' />
                                     <span>email</span>
                                 </div>
                                 <div className="inputBox">
-                                    <input 
-                                    type="password"
-                                    onChange={(e) => setpassword(e.target.value)} required />
+                                    <input
+                                        type="password"
+                                        onChange={(e) => setpassword(e.target.value)} required />
                                     <FaLock className='i' />
                                     <AiFillEyeInvisible className='i' id='eye' />
                                     <span>password</span>
                                 </div>
 
                                 <div className="inputBox">
-                                    <input 
-                                    type="tex"
-                                    onChange={(e) => setname(e.target.value)}
-                                     required />
+                                    <input
+                                        type="tex"
+                                        onChange={(e) => setname(e.target.value)}
+                                        required />
                                     <MdDriveFileRenameOutline className='i' />
                                     <span>name</span>
                                 </div>
                                 <div className="inputBox">
-                                    <input 
-                                    type="text"
-                                    onChange={(e) => setfamily(e.target.value)} required />
+                                    <input
+                                        type="text"
+                                        onChange={(e) => setfamily(e.target.value)} required />
                                     <MdDriveFileRenameOutline className='i' />
 
                                     <span>familiya</span>
