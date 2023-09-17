@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './routes/home/Home'
 import Vacancy from './routes/vacancy/Vacancy'
@@ -12,13 +12,6 @@ import SinglePage from './routes/singlePage/SinglePage'
 
 
 function App() {
-
-  // setTimeout(() => {
-  //   toast.success("login", {
-  //     position: toast.POSITION.TOP_CENTER,
-  //     autoClose: 1500
-  //   })
-  // }, 2000)
 
   let auth = localStorage.getItem('auth') || null
 
@@ -40,8 +33,6 @@ function App() {
         <Route path='/login' element={< Login />} />
 
         <Route path='/vacancy/all/:id' element={<SinglePage />} />
-
-
       </Routes>
 
     </div>

@@ -13,12 +13,10 @@ function SinglePage() {
             .catch(err => console.log(err))
     }, [])
 
-
-    console.log(fullData);
-
     return (
         <div className='singlepage'>
             <Header />
+            <h1>single page</h1>
         </div>
     )
 }
