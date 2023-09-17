@@ -47,8 +47,10 @@ function Login() {
         <div className='login'>
             <form onSubmit={login}>
                 <h1>Login</h1>
+                <div className="username">
                 <label>username</label>
                 <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} />
+                </div>
                 <label>password</label>
                 <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} />
                 <button type='submit'>Login</button>
