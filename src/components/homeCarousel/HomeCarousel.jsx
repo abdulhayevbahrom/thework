@@ -35,11 +35,11 @@ function HomeCarousel() {
             </div>
 
             <div className="caouselhomeee1">
-                <h1 style={{ marginBottom: "10px" }}>theWORK <span style={{ color: "orange" }}>CHANNEL</span></h1>
+                <h1 className='h1_item_1' style={{ marginBottom: "10px" }}>theWORK <span style={{ color: "orange" }}>CHANNEL</span></h1>
                 <div className="homecarouselitem1">
                     <>
                         <Swiper
-                            slidesPerView={4.5}
+                            slidesPerView={4}
                             spaceBetween={20}
                             freeMode={true}
                             pagination={{

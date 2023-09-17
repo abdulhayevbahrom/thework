@@ -30,7 +30,7 @@ function VacancyCard({ country }) {
             {
                 filteredData.length ?
                     filteredData.map((item, index) =>
-                        <div key={index} className='vacancyCard_item'>
+                        <div key={index} className='vacancyCard_itemm'>
                             <img src={item.img ? item.img : fakeImg} alt={item.job} />
                             <p>{item.job}</p>
                             <Link to={item.id}>More Info</Link>
@@ -38,7 +38,7 @@ function VacancyCard({ country }) {
                     )
                     :
                     data.map((item, index) =>
-                        <div key={index} className='vacancyCard_item'>
+                        <div key={index} className='vacancyCard_itemm'>
                             <img src={item.img ? item.img : fakeImg} alt={item.job} />
                             <p>{item.job}</p>
                             <Link to={item.id}>More Info</Link>

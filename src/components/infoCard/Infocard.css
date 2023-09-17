@@ -27,7 +27,7 @@
 }
 
 .fullgetjobcards>.getjob_cards {
-  width: 250px;
+  width: 280px;
   height: 300px;
   display: flex;
   flex-direction: column;
@@ -37,14 +37,15 @@
 }
 
 .fullgetjobcards>.getjob_cards>img {
-  width: 140px;
-  height: 140px;
+  min-width: 140px;
+  min-height: 140px;
   margin: 20px 0;
   border-radius: 50%;
 }
 
 .fullgetjobcards>.getjob_cards>b {
   margin: 20px 0;
+  font-size: 25px;
   font-size: 20px;
   color: #323232;
 }
@@ -52,7 +53,7 @@
 .fullgetjobcards>.getjob_cards>p {
   text-align: center;
   color: #323232;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 1346px) {
