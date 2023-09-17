@@ -12,28 +12,16 @@ function AllAdmins() {
       .get(adminAPI)
       .then((res) => setAdmin(res.data))
       .catch((err) => console.log(err))
-     .finally(()=>setLoading(false));
+      .finally(() => setLoading(false));
   }, []);
-<<<<<<< HEAD
-
-  console.log(admin);
-=======
- 
-console.log(loading);
->>>>>>> origin/Gulnoza
   return (
     <div className="AllAdmins">
       {loading ? (
         <div id="loading-bar-spinner" class="spinner">
           <div class="spinner-icon"></div>
         </div>
-<<<<<<< HEAD
       ) :
         (<table>
-=======
-      ) : (
-        <table>
->>>>>>> origin/Gulnoza
           <thead>
             <tr>
               <th>ID</th>
@@ -57,7 +45,7 @@ console.log(loading);
             ))}
           </tbody>
         </table>
-      )}
+        )}
     </div>
   );
 }

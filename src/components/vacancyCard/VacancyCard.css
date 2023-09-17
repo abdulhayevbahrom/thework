@@ -25,14 +25,13 @@
     border-radius: 10px;
     overflow: hidden;
     padding-bottom: 20px;
-    text-transform: uppercase ;
+    text-transform: uppercase;
     font-weight: 800;
     transition: .3s;
-    cursor: all-scroll;
     text-shadow: 0 0 1px black;
 }
 
-.vacancyCard .vacancyCard_itemm:hover{
+.vacancyCard .vacancyCard_itemm:hover {
     background-color: aqua;
     box-shadow: 0 0 7px aqua;
     transform: scale(1.1);
@@ -61,10 +60,9 @@
 
 
 
-.vacancyCard .vacancyCard_itemm>a:hover{
+.vacancyCard .vacancyCard_itemm>a:hover {
     box-shadow: inset 150px 0 transparent, 0 0 5px transparent;
     color: #fff;
     text-shadow: 0 0 3px #fff;
     transition: 2s;
 }
-

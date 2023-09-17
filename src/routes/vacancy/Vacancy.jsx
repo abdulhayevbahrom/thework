@@ -9,7 +9,7 @@ function Vacancy() {
         <div className='vacancy'>
             <Sidebar />
             <Routes>
-                <Route path='/all' element={<VacancyCard />} />
+                <Route path='/' element={<VacancyCard />} />
                 <Route path='/uae' element={<VacancyCard country="uae" />} />
                 <Route path='/saudiarabia' element={<VacancyCard country="saudiarabia" />} />
                 <Route path='/bahrain' element={<VacancyCard country="bahrain" />} />
