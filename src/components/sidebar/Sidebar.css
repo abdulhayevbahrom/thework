@@ -3,12 +3,12 @@
     height: 100%;
     border: 2px dodgerblue solid;
     border-radius: 7px;
-    padding: 10px ;
+    padding: 10px;
     letter-spacing: 1px;
     position: relative;
 }
 
-.sidebar_bars{
+.sidebar_bars {
     width: 30px;
     height: 30px;
     position: absolute;
@@ -19,36 +19,19 @@
 
 }
 
-.sidebar_login_out{
-    width: 100%;
-    height: 40px;
-    background-color: transparent;
-    border-top: 2px solid red;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 10%;
-    color: red;
-    font-weight: normal;
-    cursor: pointer;
+.sidebar a {
+    text-decoration: none;
 }
+
 
 .sidebar h1 {
     color: #fff;
     font-size: 40px;
     text-align: center;
-    text-shadow:  0 0 4px #fff;
+    text-shadow: 0 0 4px #fff;
 }
 
-.MdLogin{
-    width: 25px;
-    height: 25px;
-    color: red;
-}
-
-
-
-.sidebar ul{
+.sidebar ul {
     width: 100%;
     height: 70vh;
     background-color: transparent;
@@ -57,30 +40,30 @@
     padding: 0 5px;
 }
 
-.sidebar ul:hover ::-webkit-scrollbar-thumb{
+.sidebar ul:hover ::-webkit-scrollbar-thumb {
     background-color: #fff;
 }
 
-.sidebar_center_line{
+.sidebar_center_line {
     width: 2px;
     height: 25px;
     background-color: #fff;
 }
 
-.svg{
+.svg {
     width: 25px;
     height: 25px;
     color: white;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     width: 4px;
     background-color: transparent;
     border-radius: 10px;
-    padding: 10px ;
+    padding: 10px;
 }
 
-::-webkit-scrollbar-thumb{
+::-webkit-scrollbar-thumb {
     background-color: #ffffff;
     border-radius: 10px;
     cursor: pointer;
@@ -88,7 +71,7 @@
 }
 
 
-.sidebar_serch{
+.sidebar_serch {
     width: 96%;
     height: 50px;
     background-color: rgba(30, 143, 255, 0.326);
@@ -102,7 +85,7 @@
     box-shadow: 0 0 2px white;
 }
 
-.sidebar_serch input{
+.sidebar_serch input {
     outline: none;
     border: none;
     color: white;
@@ -113,7 +96,7 @@
 
 
 
-.sidebar_serch_icon{
+.sidebar_serch_icon {
     width: 25px;
     height: 25px;
 }
@@ -130,7 +113,7 @@
     align-items: center;
     position: relative;
 
-    gap: 15px;  
+    gap: 15px;
 }
 
 .sidebar ul li {

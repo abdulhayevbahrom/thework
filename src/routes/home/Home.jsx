@@ -7,6 +7,7 @@ import Section from '../../components/section/Section'
 import HomeCarousel from '../../components/homeCarousel/HomeCarousel'
 import Crousel11 from '../../components/crousel11/Carousel11'
 import Footer from '../../components/footer/Footer'
+import Questions from '../../components/questions/Questions'
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <Banner />
       <InfoCard />
       <Section />
+      <Questions />
       {/* <Carousel/> */}
       <Footer />
     </div>
