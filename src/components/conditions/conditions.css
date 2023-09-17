@@ -46,8 +46,7 @@ body {
   padding: 0 10px;
 }
 .Conditions {
-  max-width: 1366px;
-  /* height: 757px; */
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 20px;

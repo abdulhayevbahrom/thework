@@ -14,7 +14,7 @@ export default function App() {
 
   return (
     <div className="caouselhomeee">
-      <h1 style={{ marginBottom: "-40px" }}>WE HAVE <span style={{ color: "orange" }}>HIRED FOR </span></h1>
+      <h1 className='h1_item_1' style={{ marginBottom: "-40px" }}>WE HAVE <span style={{ color: "orange" }  }>HIRED FOR </span></h1>
       <div className="homecarouselitem">
         <>
           <Swiper
