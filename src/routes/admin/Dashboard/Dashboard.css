@@ -16,14 +16,15 @@ body {
   row-gap: 45px;
   padding:7% 100px;
   /* background-color: rgba(255, 255, 255, 0.883); */
-  background: url(./bg-dashboard.jpeg);
+  /* background: url(./bg-dashboard.jpeg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
+  background-color: #000f;
 }
 
 .boards {
   z-index: 3;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-decoration: none;
   width: 370px;
   height: 210px;
@@ -34,16 +35,16 @@ body {
   flex-direction: column;
   justify-content: center;
   border-radius: 45px 10px;
-  border: 2px ridge dodgerblue;
+  border: 3px ridge white;
   box-shadow: rgba(95, 122, 148, 0.4) -5px 5px,
     rgba(95, 122, 148, 0.3) -10px 10px, rgba(95, 122, 148, 0.2) -15px 15px,
     rgba(95, 122, 148, 0.1) -20px 20px, rgba(95, 122, 148, 0.05) -25px 25px;
 }
 .boards:hover {
-  border: 2px ridge rgba(165, 55, 202, 0.681);
+  border: 4px ridge white;
+  transform: scale(1.009);
 }
 .boards:hover p {
-  text-decoration: underline;
   transition: 0.5s;
 }
 .boards p {
@@ -55,7 +56,8 @@ body {
   font-size: 40px;
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
-  color: rgba(165, 55, 202, 0.681);
+  /* color: rgba(165, 55, 202, 0.681); */
+  color: white;
   letter-spacing: 3px;
   text-shadow: 0 2px 1px rgba(200, 139, 220, 0.415),
     -1px 3px 1px rgba(218, 162, 236, 0.337),
@@ -63,7 +65,7 @@ body {
 }
 
 .boards span {
-  color: rgba(4, 61, 118, 0.726);
+  color: #fff;
   text-align: justify;
   font-size: 20px;
   line-height: 150%;
@@ -81,7 +83,7 @@ body {
 
 .boards  b{
     height: 45px;
-    color: dodgerblue;
+    color:#ddd;
     font-weight: bold;
     font-size: 22px;
     text-transform: capitalize;

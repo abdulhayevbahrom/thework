@@ -33,19 +33,24 @@ function Dashboard() {
     {
       link: "/admin/all-admins",
       p: AllAdmins,
-      color: "blue",
+      color: "dodgerblue",
       marked: "Admins",
       span: "These admins are monitoring 'TheWork' site.",
     },
   ];
   return (
     <div className="Dashboard">
-      <div className="overlay"></div> 
+      <div className="overlay"></div>
       {data.map((item, index) => (
-        <Link to={item.link} key={index} className="boards">
+        <Link
+          style={{ backgroundColor: item.color }}
+          to={item.link}
+          key={index}
+          className="boards"
+        >
           <div className="paragraph">
             <p>{item.p}</p>
-            <b style={{ color: item.color }}>/{item.marked}</b>
+            <b >/{item.marked}</b>
           </div>
           <span>{item.span}</span>
         </Link>
