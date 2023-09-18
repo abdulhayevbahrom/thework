@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import './Login.css'
 
 function Login() {
     const navigate = useNavigate()
@@ -51,8 +52,10 @@ function Login() {
                 <label>username</label>
                 <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} />
                 </div>
+                <div className="password">
                 <label>password</label>
                 <input type="text" value={password} onChange={(e) => setPassword(e.target.value)} />
+                </div>
                 <button type='submit'>Login</button>
             </form>
         </div>
