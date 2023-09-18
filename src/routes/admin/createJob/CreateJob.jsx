@@ -109,7 +109,7 @@ function CreateJob() {
                                         value={location}
                                         onChange={(e) => setLocation(e.target.value)}
                                     /> */}
-                                    <select value={location}
+                                    <select className="form-control" value={location}
                                         onChange={(e) => setLocation(e.target.value)} >
                                         <option value="saudiarabia">Saudi Arabia</option>
                                         <option value="uae">UAE</option>
