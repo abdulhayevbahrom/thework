@@ -6,7 +6,6 @@ function AllAdmins() {
   let adminAPI = "https://64da6002e947d30a260b2eee.mockapi.io/foods/admins";
   const [admin, setAdmin] = useState([]);
   const [loading, setLoading] = useState(true);
-
   useEffect(() => {
     axios
       .get(adminAPI)
@@ -14,9 +13,13 @@ function AllAdmins() {
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, []);
+  
+JSON.stringify(localStorage.setItem("AllAdmins", admin));
+
   return (
     <div className="AllAdmins">
-      {loading ? (
+      {loading ?
+        (
         <div id="loading-bar-spinner" class="spinner">
           <div class="spinner-icon"></div>
         </div>
