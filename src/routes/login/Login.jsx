@@ -20,6 +20,7 @@ function Login() {
     function login(e) {
         e.preventDefault()
         let exactAdmin = admins.find(admin => admin.username === username)
+
         if (!exactAdmin) {
             return toast.error("username or password incorrect", {
                 position: toast.POSITION.TOP_CENTER,
@@ -33,14 +34,14 @@ function Login() {
                 autoClose: 1500
             })
         }
-        localStorage.setItem("auth", exactAdmin)
+        console.log(exactAdmin);
+        localStorage.setItem("auth", JSON.stringify(exactAdmin))
         toast.success("loged in successfully", {
             position: toast.POSITION.TOP_CENTER,
             autoClose: 1500
         })
         navigate('/admin')
         window.location.reload()
-
     }
 
 
@@ -49,8 +50,8 @@ function Login() {
             <form onSubmit={login}>
                 <h1>Login</h1>
                 <div className="username">
-                <label>username</label>
-                <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} />
+                    <label>username</label>
+                    <input type="text" value={username} onChange={(e) => setUserName(e.target.value)} />
                 </div>
                 <div className="password">
                 <label>password</label>

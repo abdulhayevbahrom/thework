@@ -5,28 +5,20 @@ import './AllAdmins.css'
 function AllAdmins() {
   let adminAPI = "https://64da6002e947d30a260b2eee.mockapi.io/foods/admins";
   const [admin, setAdmin] = useState([]);
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true);
+
   useEffect(() => {
     axios
       .get(adminAPI)
       .then((res) => setAdmin(res.data))
-      .catch((err) => console.log(err));
+      .catch((err) => console.log(err))
+      .finally(() => setLoading(false));
   }, []);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-  }, []);
-
-  console.log(admin);
   return (
     <div className="AllAdmins">
       {loading ? (
-        <div className="loader-container">
-          <div className="spinner"></div>
-          <p className="loader">Loading...</p>
+        <div id="loading-bar-spinner" class="spinner">
+          <div class="spinner-icon"></div>
         </div>
       ) :
         (<table>
@@ -52,9 +44,8 @@ function AllAdmins() {
               </tr>
             ))}
           </tbody>
-        </table>)}
-
-
+        </table>
+        )}
     </div>
   );
 }
