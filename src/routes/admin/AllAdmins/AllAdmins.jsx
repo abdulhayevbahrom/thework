@@ -1,7 +1,7 @@
 import React from "react";
 import { useState, useEffect, memo } from "react";
 import axios from "axios";
-import './AllAdmins.css'
+import "./AllAdmins.css";
 function AllAdmins() {
   let adminAPI = "https://64da6002e947d30a260b2eee.mockapi.io/foods/admins";
   const [admin, setAdmin] = useState([]);
@@ -15,6 +15,7 @@ function AllAdmins() {
   }, []);
   
 JSON.stringify(localStorage.setItem("AllAdmins", admin));
+
 
   return (
     <div className="AllAdmins">
