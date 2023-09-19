@@ -16,6 +16,7 @@
 .getjob>h1>span {
   color: orange;
   margin-left: 5px;
+  font-size: 34px;
 }
 
 .getjob>.fullgetjobcards {
