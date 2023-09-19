@@ -15,11 +15,7 @@ body {
   column-gap: 70px;
   row-gap: 45px;
   padding:7% 100px;
-  /* background-color: rgba(255, 255, 255, 0.883); */
-  /* background: url(./bg-dashboard.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat; */
-  background-color: #000f;
+  background-color: rgb(4, 0, 0);
 }
 
 .boards {
@@ -59,9 +55,9 @@ body {
   /* color: rgba(165, 55, 202, 0.681); */
   color: white;
   letter-spacing: 3px;
-  text-shadow: 0 2px 1px rgba(200, 139, 220, 0.415),
-    -1px 3px 1px rgba(218, 162, 236, 0.337),
-    -2px 3px 1px rgba(226, 160, 248, 0.381);
+  text-shadow: 0 2px 1px rgba(159, 156, 206, 0.415),
+    -1px 3px 1px rgba(201, 212, 221, 0.805),
+    -2px 3px 1px rgba(8, 11, 12, 0.827);
 }
 
 .boards span {
@@ -70,20 +66,8 @@ body {
   font-size: 20px;
   line-height: 150%;
 }
-
-.overlay {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  background-color: rgba(255, 255, 255, 0.25);
-  z-index: 0;
-}
-
 .boards  b{
     height: 45px;
-    color:#ddd;
     font-weight: bold;
     font-size: 22px;
     text-transform: capitalize;
@@ -93,3 +77,14 @@ body {
     align-items: center;
     justify-content: center;
 }
+.overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: rgba(255, 255, 200, 0.09);
+  z-index: 0;
+}
+
+
