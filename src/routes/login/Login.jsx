@@ -35,7 +35,7 @@ function Login() {
             })
         }
         console.log(exactAdmin);
-        localStorage.setItem("auth", JSON.stringify(exactAdmin))
+      JSON.stringify( localStorage.setItem("auth", JSON.stringify(exactAdmin)))
         toast.success("loged in successfully", {
             position: toast.POSITION.TOP_CENTER,
             autoClose: 1500
