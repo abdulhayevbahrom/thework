@@ -43,7 +43,7 @@ function AdminLogin() {
                     <div className="contentAdmin">
                         <div className="formAdmin">
                             <h3 className='logo' style={mystyle}><BiSolidKey className='keylogo' /></h3>
-                            <h2>sign in</h2>
+                            <h2>sign up</h2>
 
                             <form onSubmit={sendadmin} >
                                 <div className="inputBox">
@@ -67,7 +67,6 @@ function AdminLogin() {
                                         type="password"
                                         onChange={(e) => setpassword(e.target.value)} required />
                                     <FaLock className='i' />
-                                    <AiFillEyeInvisible className='i' id='eye' />
                                     <span>password</span>
                                 </div>
 

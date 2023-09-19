@@ -137,6 +137,7 @@ z-index: 1;
     border-bottom: 3px solid #444;
     outline: none;
     color: #444;
+    padding-left: 40px;
 
 }
 .formAdmin .inputBox .i{
@@ -155,7 +156,7 @@ z-index: 1;
 .formAdmin .inputBox span{
     position: absolute;
     top: 0;
-    left: -5px;
+    left: 0px;
     pointer-events: none;
     transition: .5s;
     padding: 10px 0px 10px 25px ;
