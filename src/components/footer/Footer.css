@@ -44,6 +44,10 @@ footer>div:nth-child(2)>div {
     gap: 20px;
 
 }
+.footerp{
+    color: white;
+}
+
 
 footer>div:nth-child(2)>div>span {
     width: 30px;
