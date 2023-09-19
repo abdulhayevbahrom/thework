@@ -14,23 +14,14 @@ function AllAdmins() {
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, []);
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/Gulnoza
   return (
     <div className="AllAdmins">
       {loading ? (
         <div id="loading-bar-spinner" class="spinner">
           <div class="spinner-icon"></div>
         </div>
-<<<<<<< HEAD
-      ) :
-        (<table>
-=======
       ) : (
         <table>
->>>>>>> origin/Gulnoza
           <thead>
             <tr>
               <th>ID</th>
@@ -54,7 +45,7 @@ function AllAdmins() {
             ))}
           </tbody>
         </table>
-        )}
+      )}
     </div>
   );
 }
