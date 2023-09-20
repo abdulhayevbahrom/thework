@@ -46,7 +46,10 @@ function Dashboard() {
       <div className="overlay"></div>
       {data.map((item, index) => (
         <Link
-          style={{ backgroundColor: item.color}}
+          style={{
+            backgroundColor: item.color,
+            // borderRadius: item.borderRadius
+          }}
           to={item.link}
           key={index}
           className="boards"

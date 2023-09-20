@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import { BiSolidTrashAlt } from "react-icons/bi";
 import { MdEdit } from "react-icons/md";
 import Edit from "../../../components/edit/Edit";
-
+import Loader from "../../../components/loader/Loader";
 function VacancyCard() {
   let API = "https://64da6002e947d30a260b2eee.mockapi.io/foods/jobs";
 
@@ -51,9 +51,8 @@ function VacancyCard() {
   return (
     <div className="vacancyCard">
       {/* {loading} &&
-      (<div id="loading-bar-spinner" class="spinner">
-        <div class="spinner-icon"></div>
-      </div>) */}
+      <Loader/>
+      */}
           {openEdit && <Edit changeble={changeble} />}
       {data.map((item, index) => (
         <div key={index} className="vacancyCard_item">

@@ -44,7 +44,7 @@ console.log(ism);
               }
             />
           </NavLink>
-          <span className="adminstrator" title={ism}>
+          <span className="adminName" title={ism}>
             {ism[0]}
           </span>
         </div>

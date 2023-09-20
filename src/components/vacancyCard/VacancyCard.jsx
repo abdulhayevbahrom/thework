@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./VacancyCard.css";
 import axios from "axios";
 import { Link } from "react-router-dom";
-
+import Loader from "../loader/Loader";
 function VacancyCard({ country }) {
   let API = "https://64da6002e947d30a260b2eee.mockapi.io/foods/jobs";
 
@@ -29,11 +29,7 @@ function VacancyCard({ country }) {
     return (
       
     <div className="vacancyCard">
-      {/* {loading}&& (
-      <div id="loading-bar-spinner" class="spinner">
-        <div class="spinner-icon"></div>
-      </div>
-      )  */}
+      {/* {loading}&& <Loader/>  */}
       {filteredData.length
         ? filteredData.map((item, index) => (
             <div key={index} className="vacancyCard_itemm" title={item.name}>
