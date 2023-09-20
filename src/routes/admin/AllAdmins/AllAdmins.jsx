@@ -7,6 +7,7 @@ import { MdEdit } from "react-icons/md";
 import EditAdmin from "../../../components/EditAdmin/EditAdmin";
 
 function AllAdmins() {
+    document.title = "All Admins";
   let adminAPI = "https://64da6002e947d30a260b2eee.mockapi.io/foods/admins";
   const [admin, setAdmin] = useState([]);
   const [loading, setLoading] = useState(true);

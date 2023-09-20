@@ -9,6 +9,7 @@ import axios from 'axios'
 import { Form } from 'react-bootstrap'
 
 function AdminLogin() {
+    document.title = "Create Admin";
     const [username, setusername] = useState("")
     const [email, setemail] = useState('')
     const [password, setpassword] = useState('')

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./Dashboard.css";
 function Dashboard() {
+    document.title = "Admin Page";
   let allJobs = localStorage.getItem("alljobs")?.length;
   let AllAdmins = localStorage.getItem("AllAdmins")?.length;
   const data = [

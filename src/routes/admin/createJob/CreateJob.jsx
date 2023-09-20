@@ -3,6 +3,7 @@ import "./CreateJob.css";
 import axios from "axios";
 
 function CreateJob() {
+    document.title = "Create Job";
     const [job, setJob] = useState("")
     const [employer, setEmployer] = useState('')
     const [location, setLocation] = useState('')

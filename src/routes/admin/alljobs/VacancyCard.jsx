@@ -7,6 +7,8 @@ import { MdEdit } from "react-icons/md";
 import Edit from "../../../components/edit/Edit";
 import Loader from "../../../components/loader/Loader";
 function VacancyCard() {
+    document.title = "All Jobs";
+
   let API = "https://64da6002e947d30a260b2eee.mockapi.io/foods/jobs";
 
   const [data, setData] = useState([]);
