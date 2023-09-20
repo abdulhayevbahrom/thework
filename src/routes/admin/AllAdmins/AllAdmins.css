@@ -60,6 +60,9 @@ tr:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
+.tBlue:hover{
+  fill: dodgerblue;
+}
 .editDel{
   display: flex;
   gap: 25px;

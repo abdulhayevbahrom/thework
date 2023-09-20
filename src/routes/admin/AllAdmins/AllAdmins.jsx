@@ -86,7 +86,7 @@ JSON.stringify(localStorage.setItem("AllAdmins", admin));
                 <td className="editDel">
                   <MdEdit
                     onClick={() => openEditItem(item)}
-                    className="trashban"
+                    className="trashban tBlue"
                   />
                   <BiSolidTrashAlt
                     className="trashban"
