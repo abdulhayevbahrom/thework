@@ -5,7 +5,7 @@ import { MdClose } from 'react-icons/md';
 
 const EditAdmin = ({ changeable, setOpenEdit, adminAPI }) => {
   document.body.style.overflow = "hidden";
-  document.title = "Edit Admin Information";
+    document.title = "Edit Admin Information";
   const [firstname, setFirstname] = useState(changeable.firstname);
   const [lastname, setLastname] = useState(changeable.lastname);
   const [username, setUsername] = useState(changeable.username);
@@ -23,13 +23,20 @@ const EditAdmin = ({ changeable, setOpenEdit, adminAPI }) => {
       email: email,
       age: age,
     };
-    axios
-      .put(adminAPI + "/" + changeable.id, changedData)
-      .then((res) => console.log(res))
-      .catch((err) => console.log(err));
+      axios
+        .put(adminAPI + "/" + changeable.id, changedData)
+        .then((res) => {
+          console.log(res);
+          if (res.status === 200) {
+            alert("successfully");
+            window.location.reload();
+          }
+        })
+        .catch((err) => console.log(err));
+      
   }
 
-  return (
+    return (      
     <div className="EditAdmin">
       <div id="modal" className="modal-todo ">
         <div className="card">
@@ -118,7 +125,6 @@ const EditAdmin = ({ changeable, setOpenEdit, adminAPI }) => {
                 <span id="message-edit" className="text-danger"></span>
               </div>
               <button
-                onClick={() => window.location.reload()}
                 type="submit"
                 className="btn btn-outline-primary d-block ms-auto"
               >
@@ -128,7 +134,7 @@ const EditAdmin = ({ changeable, setOpenEdit, adminAPI }) => {
           </div>
         </div>
       </div>
-      <div onClick={() => setOpenEdit(false)} className="overlay"></div>
+          <div onClick={() => setOpenEdit(false)} className="overlay"></div>
     </div>
   );
 };

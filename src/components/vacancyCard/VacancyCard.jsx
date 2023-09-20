@@ -27,9 +27,9 @@ function VacancyCard({ country }) {
     "https://storage.georgia.travel/images/300x350/borjom-karagauli-nature-georgia.webp";
 
     return (
-      
+     loading ? <Loader/> :
     <div className="vacancyCard">
-      {/* {loading}&& <Loader/>  */}
+      
       {filteredData.length
         ? filteredData.map((item, index) => (
             <div key={index} className="vacancyCard_itemm" title={item.name}>

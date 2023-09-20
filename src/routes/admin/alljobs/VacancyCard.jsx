@@ -49,10 +49,11 @@ function VacancyCard() {
   }
 
   return (
+ loading ?
+      <Loader/> :
+      
     <div className="vacancyCard">
-      {/* {loading} &&
-      <Loader/>
-      */}
+     
           {openEdit && <Edit changeble={changeble} />}
       {data.map((item, index) => (
         <div key={index} className="vacancyCard_item">
