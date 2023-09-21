@@ -1,7 +1,6 @@
 .createjob {
     width: calc(100%-300px);
-    /* background-color: antiquewhite; */
-    padding: 70px 50px;
+    padding: 70px ;
 }
 
 .createjob .btn-secondary {

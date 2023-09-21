@@ -8,7 +8,9 @@ import { Link } from 'react-router-dom'
 function Sidebar() {
     return (
         <div className='sidebar'>
-            <h1>Logo</h1>
+            <Link to={"/"}>
+                <h1>Logo</h1>
+            </Link>
             <AiOutlineBars className='sidebar_bars' />
             <div className='sidebar_serch'>
                 <BiSearch className='sidebar_serch_icon' />
@@ -38,10 +40,7 @@ function Sidebar() {
 
 
             </ul>
-            <div className="sidebar_login_out">
-                <h5>Login out</h5>
-                <FiLogIn style={{ color: "red" }} className='MdLogin' />
-            </div>
+
         </div>
     )
 }
