@@ -13,13 +13,10 @@ function AllAdmins() {
       .catch((err) => console.log(err))
       .finally(() => setLoading(false));
   }, []);
-<<<<<<< HEAD
-=======
   
 JSON.stringify(localStorage.setItem("AllAdmins", admin));
 
 
->>>>>>> origin/Gulnoza
   return (
     <div className="AllAdmins">
       {loading ?
@@ -27,13 +24,8 @@ JSON.stringify(localStorage.setItem("AllAdmins", admin));
         <div id="loading-bar-spinner" class="spinner">
           <div class="spinner-icon"></div>
         </div>
-<<<<<<< HEAD
-      ) : (
-        <table>
-=======
       ) :
         (<table>
->>>>>>> origin/Gulnoza
           <thead>
             <tr>
               <th>ID</th>
@@ -62,4 +54,4 @@ JSON.stringify(localStorage.setItem("AllAdmins", admin));
   );
 }
 
-export default memo(AllAdmins);
+export default memo(AllAdmins)

@@ -6,6 +6,7 @@
     padding: 10px;
     letter-spacing: 1px;
     position: relative;
+    background-color: #ddd;
 }
 
 .sidebar_bars {
@@ -25,7 +26,7 @@
 
 
 .sidebar h1 {
-    color: #fff;
+    color: darkblue;
     font-size: 40px;
     text-align: center;
     text-shadow: 0 0 4px #fff;
