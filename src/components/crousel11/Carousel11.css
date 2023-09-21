@@ -1,34 +1,3 @@
-.mySwiper {
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-.crousel_imgs {
-    min-width: 100px;
-    height: 340px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.crousel_imgs>img {
-    width: 220px;
-    height: 220px;
-}
-
-.homeCarousel {
-    width: 100%;
-    height: auto;
-}
-
-.h1_item_1 span{
-    font-size: 30px;
-}
-
 .caouselhomeee {
     width: 100%;
     height: 60vh;
@@ -37,36 +6,32 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    gap: 40px;
 
 }
 
-@media screen and (max-width:760px) {
-    .caouselhomeee {
-        margin-top: 200px;
-    }
+.caouselhomeee>h2{
+    display: flex;
+    gap: 10px;
+
 }
-    .caouselhomeee1 {
-        width: 100%;
-        height: 60vh;
-        background-color: #eee;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
 
-    }
+.carousell_items{
+    width: 85%;
+    height: 60%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
 
-    .homecarouselitem1,
-    .homecarouselitem {
-        width: 80%;
-        height: 350px;
-    }
 
-    @media screen and (max-width:850px) {
+}
 
-        .homecarouselitem1,
-        .homecarouselitem {
-            width: 95%;
-            height: 350px;
-        }
-    }
+
+.crousel_imgs img{
+    width: 200px;
+    height: 80%;
+}
+
+
